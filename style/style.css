@@ -128,15 +128,16 @@ section {
 
 .centratore {
     width: 70%;
-    background-color: fuchsia;
     margin: auto;
-    margin-top: 40px;
+    padding-top: 40px;
 }
 .contenitore-testo {
     width: 25%;
     float: left;
+}
+.primo {
     margin-top: 30px;
-    margin-left: 80px;
+    margin-left: 70px;
 }
 .study-group {
     float: left;
@@ -151,8 +152,30 @@ section {
     line-height: 1.8em;
 }
 
+/*ONDA*/
+.wavePath-haxJK1 {
+    fill: rgba(204, 202, 202,0.3)
+}
+svg {
+    display: block;
+}
+
 /*Section due*/
 
+.section-due {
+    background-color: rgba(204, 202, 202,0.3)
+}
+.secondo {
+    margin-right: 70px;
+    margin-left: 30px;
+}
+
+.wavePath-haxJK12 {
+    fill: white;
+}
+.wave-1hkxOo1 {
+    background-color: rgba(204, 202, 202,0.3)
+}
 
 
 

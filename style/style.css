@@ -45,7 +45,7 @@ li a {
     font-size: 16px;
 }
 
-a:hover {
+li a:hover {
     text-decoration: underline;
 }
 
@@ -70,10 +70,47 @@ span a {
     background-image: url(../img/jumbo.png);
     background-size: cover;
     background-position: center;
+    position: relative;
+}
+ .central-box {
+     width: 35%;
+     height: 30vh;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+     text-align: center;
+ }
+  h1 {
+      color: white;
+      font-size: 42px;
+  }
+  .descrizione {
+      color: white;
+      font-size: 14px;
+      line-height: 1.5em;
+      margin-top: 30px;
+  }
+
+.scarica {
+    background-color: white;
+    margin-right: 20px;
 }
 
+.apri {
+    color: white;
+    background-color: rgb(39, 38, 38);
+}
 
-
+.link {
+    border-radius: 20px;
+    padding: 11px;
+    font-size: 14px;
+}
+.central-box span {
+    display: inline-block;
+    margin-top: 35px;
+}
 
 
 

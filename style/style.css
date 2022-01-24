@@ -104,7 +104,7 @@ span a {
 
 .link {
     border-radius: 20px;
-    padding: 11px;
+    padding: 10px 20px;
     font-size: 14px;
 }
 .central-box span {
@@ -183,27 +183,50 @@ svg {
 
 /*Section quattro*/
 
+.section-quattro {
+    background-color: rgba(204, 202, 202,0.3);
+    height: 140vh;
+}
 
+.container-testo {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+ .container-testo h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: rgb(22, 22, 22);
+ }
+ .videochiamate {
+     margin-left: 100px;
+ }
 
+.avventura {
+    width: 70%;
+    height: 60px;
+    margin: 20px auto;
+    text-align: center;
+    padding: 30px;
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    background-position: top;
+    font-size: 25px;
+    
+}
 
+.mac {
+    background-color: rgb(90, 103, 224);
+    color: white;
+    font-size: 19px;
+    text-decoration: none;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.container-mac {
+    width: 40%;
+    margin: auto;
+    margin-top: 60px;
+    text-align: center;
+}
 
 /*FOOTER*/

@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /*HEADER*/
@@ -232,14 +232,20 @@ svg {
 /*FOOTER*/
 
 .centratore-footer {
-    width: 60%;
+    width: 80%;
     margin: auto;
     padding-top: 60px;
 
 }
+
+.centratore-footer::after {
+    display: table;
+    content: '';
+    clear: both;
+}
 .footer-container {
     width: 100%;
-    height: 70vh;
+    height: 80vh;
     background-color: rgb(39, 38, 38);
 }
 
@@ -270,16 +276,82 @@ svg {
 
 .footer-list {
     list-style: none;
-    float: left;
     font-size: 20px;
     color: white;
-    padding-left: 40px;
+    padding-left: 50px;
+    float: left;
 }
+
+
 
 .list-item {
     color: rgb(80, 80, 175);
     font-weight: bold;
 }
 .footer-list li {
-    padding: .5em;
+    padding: .5em 20px;
+}
+a:hover {
+    color: rgb(45, 174, 235);
+}
+
+.footer-bottom {
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.footer-bottom::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.discord-logo {
+    float: left;
+    margin-top: 20px;
+}
+
+.bottone-finale {
+    float: right;
+    margin-top: 20px;
+}
+
+.registrati {
+    background-color: rgb(90, 103, 224);
+    color: white;
+    font-size: 19px;
+    text-decoration: none;
+}
+
+.hr-azzurro {
+    height: 1px;
+    background-color: rgb(90, 103, 224);
+    border: none;
+}
+
+.twitter , .facebook , .instagram , .youtube {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+}
+
+#path24592 {
+    fill: white;
+}
+
+.path-fb {
+    fill: white;
+}
+
+.path-insta , .path-yt {
+    fill: white;
+}
+
+.icons {
+    margin-top: 10px;
+}
+
+.facebook , .instagram , .youtube {
+    margin-left: 10px;
 }
